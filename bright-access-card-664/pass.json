@@ -8,7 +8,7 @@
   "foregroundColor": "rgb(255, 255, 255)",
   "backgroundColor": "rgb(15, 23, 42)",
   "labelColor": "rgb(148, 163, 184)",
-  "generic": {
+  "boardingPass": {
     "headerFields": [
       {
         "key": "h1",
@@ -18,9 +18,14 @@
     ],
     "primaryFields": [
       {
-        "key": "p1",
-        "label": "Member",
-        "value": "Rider 6605"
+        "key": "from",
+        "label": "FROM",
+        "value": "JFK"
+      },
+      {
+        "key": "to",
+        "label": "TO",
+        "value": "LAX"
       }
     ],
     "secondaryFields": [
@@ -49,7 +54,8 @@
         "value": "Membership is non-transferable. Cancellation requires 30 days written notice.",
         "dataDetectorTypes": []
       }
-    ]
+    ],
+    "transitType": "PKTransitTypeGeneric"
   },
   "logoText": "Bright Access Card 664",
   "barcodes": [
